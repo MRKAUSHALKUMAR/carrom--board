@@ -1,0 +1,310 @@
+.head{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: rgba(104, 65, 93, 0.912);
+}
+
+h2{
+    text-align: center;
+    color:red;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    position: relative;
+    background-color: bisque;
+}
+.box1{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.box2{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+
+.box3{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.box4{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.circle{
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    bottom: 55%;
+    left: 40%;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.side-div{
+    position: absolute;
+    top: 35px;
+    left: 18%;
+    height: 25px;
+    width:310px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.side-div1{
+    position: absolute;
+    bottom: 35px;
+    left: 18%;
+    height: 25px;
+    width:310px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.side-div2{
+    position: absolute;
+   top: 250px;
+    /* left: 0px; */
+    right: 280px;
+    height: 25px;
+    width:310px;
+    border: 1px solid black;
+    border-radius: 15px;
+    transform: rotate(90deg);
+}
+
+.side-div3{
+    position: absolute;
+    top: 250px;
+     left: 280px;
+     /* right: 280px; */
+     height: 25px;
+     width:300px;
+     border: 1px solid black;
+     border-radius: 15px;
+     transform: rotate(90deg);
+}
+  
+#icon-1{
+   
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    
+    transform: rotate(125deg);
+}
+
+ span #icon-2{
+    position: absolute;
+    top: 80px;
+    right: 70px;
+    
+    transform: rotate(220deg);
+}
+
+span #icon-3{
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+    
+    transform: rotate(300deg);
+}
+
+span #icon-4{
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    /* right: 70px; */
+    
+    transform: rotate(400deg);
+}
+
+.striker-sec{
+    top: 35px;
+    left: 18%;
+  
+    position: absolute;
+    height: 25px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* background-color:black; */
+}
+
+    .striker-sec1{
+        top: 35px;
+        left: 75%;
+      
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    .striker-sec2{
+        top: 112px;
+        /* left: 84%; */
+        right: 55px;
+      
+        position: absolute;
+        height: 25px;
+        width: 24px;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+        .striker-sec3{
+            top: 387px;
+        /* left: 84%; */
+        right: 55px;
+      
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        border: 1px solid black;
+        }
+
+        .striker-sec4{
+            top: 438px;
+            /* left: 84%; */
+            right: 98px;
+          
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+
+        .striker-sec5{
+            top: 438px;
+            /* left: 84%; */
+            left: 90px;
+          
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+
+        .striker-sec6{
+            top: 393px;
+            /* left: 84%; */
+            left: 50px;
+          
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+
+        .striker-sec7{
+            top: 107px;
+            /* left: 84%; */
+            left: 50px;
+          
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+
+        .striker{
+            position: absolute;
+            top: 35px;
+           left: 18%;
+            height: 26px;
+            width: 28px;
+            background-color:red;
+            border-radius: 50%;
+            animation-name: stikermove;
+            animation-duration: 8s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+            
+        }
+        @keyframes stikermove {
+            0%{
+                top: 5%;
+                left: 20%;
+            }
+    
+            30%{ top: 10%;
+                left: 80%;
+    
+            }
+    
+            60%{
+                top: 45%;
+                left: 0%;
+    
+            }
+            75%{
+                top:95%;
+                left: 50%;
+            }
+            90%{
+                top: 50%;
+                left: 90%;
+
+            }
+
+           100%{
+            top: 5%;
+            left: 30%;
+           }
+            
+        }
+    
+
+
+
+
+.side-div1 span{
+    margin:90px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color:black;
+}
